@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 99;
+}
+#loader h1{
+    font-size: 6.6vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9;
+    line-height: 5.5vw;
+    letter-spacing: -3px;
+}
+#yellow1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:#F5E41B ;
+    z-index: 8;
+}
+#yellow2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:#F5E41B ;
+    z-index: 7;
+}
+#loader video{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 6;
+}
+#nav{
+    position:absolute ;
+    width: 100%;
+    background-color: red;
+    z-index: 10;
+    padding: 30px 50px;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #F5E41B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#page1 h1{
+    font-size: 6.6vw;
+    font-weight: 100;
+    line-height: 5.5vw;
+    letter-spacing: -3px;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+#info{
+    display: flex;
+    flex-direction: row;
+}
+#info h4{
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#container div{
+    margin-left: 150px;
+}
+#ig1 img {
+    height: 400px;
+    width: 250px;
+    object-fit: cover; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: 30px;
+}
+#ig2 img {
+    height: 400px;
+    width: 250px;
+    object-fit: cover; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: 250px;
+}
+#ig3 img {
+    height: 400px;
+    width: 250px;
+    object-fit: cover; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: 500px;
+}
+#ig1 img:hover, #ig2 img:hover, #ig3 img:hover {
+    transform: scale(1.1); 
+    border-color: #ff5733; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+}
